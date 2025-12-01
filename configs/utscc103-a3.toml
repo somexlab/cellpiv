@@ -1,0 +1,49 @@
+# this file contains settings regarding the segmentation of fluorescence images
+## data
+info = "UT-SCC-103 a3"
+BASEPATH = "/home/fabian/data/ext_fabio_data/unified_input/archive/jasmin_kaivola/24h_Jam/"
+src = "G2_2/"
+glob = "*.tif"
+plotpath = "UT-SCC-103"
+type = "a3"
+
+# dest = "structural_analysis/MCF10A/3days"
+pixel_size = 1.62  # microns
+pixel_size_unit = "µm"
+# chunk_length and chunk_overlap depend on `every`!! 
+chunk_length = 20
+chunk_overlap = 10
+skip_first = 0
+every = 1
+
+## method
+method = "trackpy"
+
+[piv]
+winsize = 66 # 40 #searchsize/1.2
+searchsize = 80 # 48  
+overlap = 40 # 24 #always half of searchsize
+threshold = 1.2
+pixel_size = 1.62
+dt = 600 # in seconds
+sig2noise_method = 'peak2peak'
+# not using inline tables because this creates issues in multiprocessing for some reason
+# see here: https://github.com/uiri/toml/issues/362#issuecomment-883354434
+replace_outliers.max_iter = 3
+replace_outliers.kernel_size = 3
+replace_outliers.method = 'localmean'
+
+[piv-proc]
+chunk_length = 10
+chunk_overlap = 5 
+skip_first = 0
+use_every = 1 #=1 means to use every frame
+register = false
+nbins = 14 # 30  # for vel-vel radial correlation function; changing the interrogation windows I have to check nbins to get a 'smoother' curve (I have spikes if the bins are too many)
+prefactor_ddm_vel = 1.0
+
+clahe = false
+
+[results]  
+# DDM
+# power_law_results = "../power_law_results-phase.pkl"
