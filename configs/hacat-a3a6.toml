@@ -1,4 +1,3 @@
-# this file contains settings regarding the segmentation of fluorescence images
 ## data
 info = "HaCaT a3a6"
 BASEPATH = "/home/fabian/data/ext_fabio_data/unified_input/archive/jasmin_kaivola/24h_Jam/"
@@ -7,17 +6,13 @@ glob = "*.tif"
 plotpath = "HaCaT"
 type = "a3a6"
 
-# dest = "structural_analysis/MCF10A/3days"
 pixel_size = 1.62  # microns
 pixel_size_unit = "µm"
 # chunk_length and chunk_overlap depend on `every`!! 
-chunk_length = 20
+chunk_length = 20 #200 minutes
 chunk_overlap = 10
 skip_first = 0
 every = 1
-
-## method
-method = "trackpy"
 
 [piv]
 winsize = 66 # 40 #searchsize/1.2
@@ -43,7 +38,3 @@ nbins = 14 # 30  # for vel-vel radial correlation function; changing the interro
 prefactor_ddm_vel = 1.0
 
 clahe = true
-
-[results]  
-# DDM
-# power_law_results = "../power_law_results-phase.pkl"

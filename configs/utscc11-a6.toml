@@ -1,4 +1,3 @@
-# this file contains settings regarding the segmentation of fluorescence images
 ## data
 info = "UT-SCC-11 a6"
 BASEPATH = "/home/fabian/data/ext_fabio_data/unified_input/archive/jasmin_kaivola/24h_Jam/"
@@ -7,7 +6,6 @@ glob = "*.tif"
 plotpath = "UT-SCC-11"
 type = "a6"
 
-# dest = "structural_analysis/MCF10A/3days"
 pixel_size = 1.62  # microns
 pixel_size_unit = "µm"
 # chunk_length and chunk_overlap depend on `every`!! 
@@ -16,8 +14,6 @@ chunk_overlap = 10
 skip_first = 0
 every = 1
 
-## method
-method = "trackpy"
 
 [piv]
 winsize = 66 # 40 #searchsize/1.2
@@ -40,10 +36,5 @@ skip_first = 0
 use_every = 1 #=1 means to use every frame
 register = false
 nbins = 14 # 30  # for vel-vel radial correlation function; changing the interrogation windows I have to check nbins to get a 'smoother' curve (I have spikes if the bins are too many)
-prefactor_ddm_vel = 1.0
 
 clahe = false
-
-[results]  
-# DDM
-# power_law_results = "../power_law_results-phase.pkl"
