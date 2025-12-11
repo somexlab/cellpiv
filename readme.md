@@ -2,7 +2,7 @@
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE) 
 [![DOI](https://zenodo.org/badge/1107814181.svg)](https://doi.org/10.5281/zenodo.17898956)
 
-**cellpiv** is a Python package for analyzing microscopy images of cellular monolayers using **openPIV** ([![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4409178.svg)](https://doi.org/10.5281/zenodo.4409178)).
+**cellpiv** is a Python code for analyzing microscopy images of cellular monolayers using **openPIV** ([![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4409178.svg)](https://doi.org/10.5281/zenodo.4409178)).
 
 The code builds on Particle Image Velocimetry (PIV) applied to image pairs, and extends this analysis to entire movies and full datasets - i.e., multiple fields of view - processed in parallel.
 
