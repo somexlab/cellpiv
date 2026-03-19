@@ -12,11 +12,7 @@ The package uses the resulting PIV fields to compute higher-level quantities suc
 
 The code is used in association with the following publication:
 
-    Jasmin Kaivola, Karolina Punovuori, Megan R. Chastney, Yekaterina A. Miroshnikova, Hind Abdo, Fabien Bertillot, 
-    Fabian Krautgasser, Jasmin Di Franco, James R. W. Conway, Gautier Follain, Jaana Hagström, Antti Mäkitie,
-    Heikki Irjala, Sami Ventelä, Hellyeh Hamidi, Giorgio Scita, Roberto Cerbino, Sara A. Wickström, Johanna Ivaska  
-    *Restoring mechanophenotype reverts malignant properties of ECM-enriched vocal fold cancer*  
-    _under review_
+    Jasmin Kaivola, Karolina Punovuori, Megan R. Chastney, Hind Abdo, Gautier Follain, Mathilde Mathieu, Omkar Joshi, Yekaterina A. Miroshnikova, Fabian Krautgasser, Jasmin Di Franco, James R. W. Conway, Sofia Held, Fabien Bertillot, Jaana Hagström, Antti Mäkitie, Heikki Irjala, Sami Ventelä, Hellyeh Hamidi, Giorgio Scita, Roberto Cerbino, Sara A. Wickström, Johanna Ivaska (2026). Restoring the tumour mechanophenotype of vocal fold cancer reverts its malignant properties. Nat. Mater., no. 1 (2026): 1-15.
 
 If you use this code, please cite the publication above.
 
