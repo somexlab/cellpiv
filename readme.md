@@ -20,7 +20,7 @@ If you use this code, please cite the publication above.
 cellpiv is available under the [GNU GPL-3.0 license](LICENSE).
 
 ## Authors
-**cellpiv** was developed by **Fabian Krautgasser** and **Jasmin Di Franco**.  
+**cellpiv** was developed by **Fabian Krautgasser** and **[Jasmin Di Franco](https://github.com/jasmindifranco)**.  
 SomexLab: [https://somexlab.github.io/](https://somexlab.github.io/)
 
 
